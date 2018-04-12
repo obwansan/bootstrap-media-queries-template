@@ -1,0 +1,23 @@
+/****************************
+Media Queries
+*****************************/
+
+@media (max-width: 640px) {
+    .container {
+        width: 320px;
+    }
+
+@media (max-width: 1023px) and (min-width: 641px) {
+    .container {
+        width: 640px;
+    }
+
+@media (max-width: 1399px) and (min-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1398px;
+    }
